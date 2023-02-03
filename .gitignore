@@ -1,0 +1,12 @@
+.idea
+eureka/.gitignore
+eureka/target
+
+gateway-server/.gitignore
+gateway-server/target
+
+msvc-cursos/.gitignore
+msvc-cursos/target
+
+msvc-usuarios/.gitignore
+msvc-usuarios/target
