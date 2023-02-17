@@ -22,7 +22,7 @@ public class UsuarioController {
     @GetMapping("/")
     @ResponseStatus(HttpStatus.OK)
     public Map<String, List<Usuario>> findAll() {
-        return Collections.singletonMap("users", usuarioService.findAll());
+        return Collections.singletonMap("usuarios", usuarioService.findAll());
     }
 
     @GetMapping("/{id}")
